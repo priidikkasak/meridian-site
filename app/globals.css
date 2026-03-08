@@ -23,11 +23,6 @@ body {
   background-color: var(--bg);
   color: var(--text);
   overflow-x: hidden;
-  cursor: none;
-}
-
-@media (pointer: coarse) {
-  body { cursor: auto; }
 }
 
 ::selection {
